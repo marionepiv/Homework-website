@@ -1,0 +1,25 @@
+body{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(255, 215, 12)
+}
+
+.Début{
+    color: dodgerblue;
+    font-family: "Bungee", sans-serif;
+}
+
+.Titre{
+    font-size: 400%;
+}
+
+.Texte{
+    color: aliceblue;
+    font-family: "Cascadia Mono", monospace;
+}
+
+.sous-titre{
+    font-size: 60%;
+    font-style: italic;
+}
+
