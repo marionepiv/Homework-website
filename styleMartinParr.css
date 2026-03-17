@@ -1,5 +1,5 @@
 body{
-    width: 80%;
+    width: 80 %;
     margin: 0 auto;
     background-color: rgb(255, 215, 12)
 }
@@ -10,7 +10,7 @@ body{
 }
 
 .Titre{
-    font-size: 400%;
+    font-size: 400 %;
 }
 
 .Texte{
@@ -19,7 +19,46 @@ body{
 }
 
 .sous-titre{
-    font-size: 60%;
+    font-size: 60 %;
     font-style: italic;
+}
+.highlight{
+    background-color: lightgoldenrodyellow;
+}
+
+.relativeDiv{
+    position: relative;
+    left: 30 px;
+}
+
+.absolutDiv{
+    position: absolute;
+    top: 60 px;
+    left: 1150 px;
+    z-index: 3;
+}
+
+.fixed {
+    position: fixed;
+    top: 60 px;
+    left: 1150px;
+    z-index: 1;
+}
+
+.fixedtext {
+    position: fixed;
+    top: 250px;
+    left: 1200px;
+    z-index: 2;
+    font-family: "Bungee", sans-serif;
+    color: aliceblue;
+}
+
+
+button{
+    border: 5px solid blue;
+    padding: 10px 20px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
